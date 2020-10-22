@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-style: normal;   
+    margin: 0 auto;
+    text-align: center;
+}
+audio{
+    opacity: 0;
+}
+span{
+    color: #fff;
+}
+ul,li{
+    list-style: none;
+}
+.pass{
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 30px;
+    background: #409eff;
+    color: #fff;
+    position: absolute;
+    right: 800px;
+    top: 20px;
+    cursor: pointer;
+}
+.fons{
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 30px;
+    background: #409eff;
+    color: #fff;
+    position: absolute;
+    right: 750px;
+    top: 20px;
+    cursor: pointer;
+}
+.fonse{
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 30px;
+    background: #409eff;
+    color: #fff;
+    position: absolute;
+    right: 700px;
+    top: 20px;
+    cursor: pointer;
+}
+.up{
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 30px;
+    background: #409eff;
+    color: #fff;
+    position: absolute;
+    right: 650px;
+    top: 20px;
+    cursor: pointer;
+}
+.star{
+    position: absolute;
+    left: 680px;
+    top: 70px;
+}
+.fire{
+    position: absolute;
+    left: 770px;
+    top: 70px;
+}
+.timein{
+    position: absolute;
+    left: 850px;
+    top: 70px;
+}
+
+.startGame,.games,.getname,.rank{
+    background: url('images/OOK2510.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+}
+.leftLogo{
+    width: 17%;
+    background: url(logo/sky2.png) no-repeat;
+    background-position: right;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+.rightSpeak{
+    width: 80%;
+    float: right;
+    text-align: left;
+    padding: 100px 0px;
+    font-size: 20px;
+}
+.rightSpeak p{
+    color: #fff;
+    line-height: 50px;
+}
+.rightSpeak button{
+    background:orange;
+    width: 100%;
+    border: none;
+    padding:10px;
+    border-radius: 20px;
+    color: #fff;
+}
+.topLogo{
+    margin: 0 auto;
+    height: 50%;
+}
+.tlogo{
+    width: 17%;
+    background: url(logo/sky2.png) no-repeat;
+    background-position: right;
+    height: 100%;
+    margin-left: 10px;
+    margin: 0 auto;
+}
+.consname input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #fff;
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+.consname input:focus{
+    outline: 0px;
+}
+.consname button{
+    background:orange;
+    width: 50%;
+    border: none;
+    padding:10px;
+    border-radius: 20px;
+    color: #fff;
+}
+.rankLogo{
+    width: 17%;
+    background: url(logo/sky2.png) no-repeat;
+    background-position: right;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+.rankInfo{
+    width: 80%;
+    float: left;
+    margin: 100px auto;
+}
+.rankInfo ul li span{
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    line-height: 45px;
+}
+.rankInfo button{
+    background:orange;
+    width: 70%;
+    border: none;
+    padding:10px;
+    border-radius: 20px;
+    color: #fff;
+}
